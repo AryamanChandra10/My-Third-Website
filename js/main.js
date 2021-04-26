@@ -9,13 +9,13 @@ $(document).ready(function(){
     })
 })
 
-// owl-carousek for blog
-$('.owl-carousel').owlCarousel({
-    loop:true,
-    autoplay:true,
-    autoplayTimeout: 5000,
-    dots: false,
-    nav:true,
-    navText: [$('.owl-navigation .owl-nav-prev'),$('.owl-navigation .owl-nav-next'), ]
-})
+    // owl-carousek for blog
+    $('.owl-carousel').owlCarousel({
+        loop:true,
+        autoplay:true,
+        autoplayTimeout: 5000,
+        dots: false,
+        nav:true,
+        navText: [$('.owl-navigation .owl-nav-prev'),$('.owl-navigation .owl-nav-next'),]
+    })
 
