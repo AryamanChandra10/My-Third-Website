@@ -205,7 +205,7 @@ main .site-title .btn:hover{
 /*-----------------Blog Carousel------------------*/
 
 main .blog{
-    background-color: var(--pink);
+    background-color: #BE6262;
     height: 100vh;
     width: 100%;
     background-size: 65%;
@@ -265,6 +265,9 @@ section .container .owl-nav{
 
 
 /* -------x----------Blog Carousel--------x-----*/
+
+/*--------------*/
+
 
 
 /*-------------------Site Title-------------------*/
