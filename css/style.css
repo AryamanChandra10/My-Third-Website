@@ -132,7 +132,7 @@ body.light{
 
 .nav .toggle-collapse .toggle-icons{
     font-size: 1.4rem;
-    color: rgb(255, 255, 255);
+    color: var(--pink)
 }
    
 .collapse {
@@ -497,17 +497,22 @@ font-size: 1rem;
     margin: .4rem .6rem;
 }
 
-.site-content .sidebar .move-up{
+.move-up{
     position: absolute;
-    right: 6%;
-    top: 50%;
+    left: 80%;
+    top: 600%;
 }
 
 
 
-.fa-2x{
-    font-size: 100px;
+.move-up{
+    font-size: 15px;
+    color: var(--text-light);
+}
+
+.move-up span:hover{
     color: var(--text-dark);
+    cursor: pointer;
 }
 
 
@@ -519,7 +524,28 @@ font-size: 1rem;
 
 
 
+/*  Viewport less then or equal to 1130px */
+
+
+
+@media only screen and (max-width:1130px){
+    .site-content .post-content > .post-image .post-info{
+        left: 2rem !important;
+        bottom: 1.2rem !important;
+        border-radius: 0% !important;
+    }
+
+
+    .site-content .sidebar .popular-post .post-info{
+        display: none !important;
+    }
+}
+    
+
+/* X  Viewport less then or equal to 1130px  X */
+
 /*  Viewport less then or equal to 750px */
+
 
 @media only screen and (max-width: 750px){
     .nav .nav-menu, .nav .nav-items{
@@ -530,7 +556,41 @@ font-size: 1rem;
         display: initial;
     }
 
+    main .site-content{
+        grid-template-columns: 100%;
+    }
 
-/*  Viewport less then or equal to 750px */
+
 
 }
+
+/*  x  Viewport less then or equal to 750px  x */
+
+
+
+/*  Viewport less then or equal to 520px */
+@media only screen and (max-width: 520px){
+    main .blog{
+        height: 125vh;
+    }
+
+
+    .site-content .post-content > .post-image .post-info{
+        display: none;
+    }
+
+    .nav .nav-brand a{
+        font-size:1.2rem;
+    }
+
+    .site-title h1{
+        font-size: 2rem;
+    }
+
+
+    nav .toggle-collapse{
+        width: 85% !important;
+    }
+}
+
+/*  Viewport less then or equal to 520px */
