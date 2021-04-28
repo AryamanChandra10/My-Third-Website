@@ -18,7 +18,7 @@ html,body{
     --pink: #ECC4C4;
      
     /* gradient colour */
-    --sky:linear-gradient(to top, #dfe9f3 0%, white 100%);
+    --sky:linear-gradient(-225deg, #FFFEFF 0%, #D7FFFE 100%);
     /* theme font family */
     --Abel:'Abel';
     --Chilanka:'Chilanka';
@@ -415,7 +415,6 @@ main .post-content .post-title a{
 }
 
 main .sidebar h2{
-    padding-left: 4rem;
     color: var(--text-light);
 }
 
@@ -460,6 +459,58 @@ main .sidebar h2{
 .site-content .sidebar .popular-post .post-title a{
 font-size: 1rem;
 }
+
+
+.site-content .sidebar .newsletter{
+    padding-top: 8.5rem;
+}
+
+.site-content .sidebar .newsletter .form-element{
+    padding: .5rem 2rem;
+}
+
+.site-content .sidebar .newsletter .input-element{
+    width: 80%;
+    height: 1.9rem;
+    padding: .3rem .5rem;
+    font-family: var(--ZendDots);
+    font-size: 1rem;
+}
+
+.site-content .sidebar .newsletter .form-btn{
+    border-radius: 0;
+    padding: .8rem 32%;
+    margin: 1rem 0;
+    background: var(--text-dark);
+    border-radius: 1rem;
+}
+
+.site-content .sidebar .popular-tags{
+    padding: 5rem 0;
+
+}
+
+.site-content .sidebar .popular-tags .tags .tag{
+    background: var(--text-dark);
+    padding: .4rem 1rem;
+    border-radius: 3rem;
+    margin: .4rem .6rem;
+}
+
+.site-content .sidebar .move-up{
+    position: absolute;
+    right: 6%;
+    top: 50%;
+}
+
+
+
+.fa-2x{
+    font-size: 100px;
+    color: var(--text-dark);
+}
+
+
 
 /*---x------Side Bar----x----- */
 
