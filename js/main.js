@@ -19,3 +19,12 @@ $(document).ready(function(){
         navText: [$('.owl-navigation .owl-nav-prev'),$('.owl-navigation .owl-nav-next'),]
     })
 
+    // dark mode
+    const checkbox = 
+    document.getElementById('checkbox');
+
+    checkbox.addEventListener('change', () =>{
+        // change background color
+        document.body.classList.toggle('light');
+    });
+    
